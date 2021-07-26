@@ -22,7 +22,7 @@ public class baseTest {
 			driver.manage().deleteAllCookies();//clears cookies and cache
 			System.out.println("Cleared all cookies and cache");
 			Thread.sleep(7000);
-			driver.get("https://test.esbinternational.ie/#");//calls URL
+			driver.get("https://www.esbinternational.ie/#");//calls URL
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//button[@id='onetrust-pc-btn-handler']")).click();
 			driver.findElement(By.id("ot-header-id-C0001")).click();
